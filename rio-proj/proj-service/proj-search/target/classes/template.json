@@ -1,0 +1,111 @@
+{
+  "database": "proj_data",
+  "tableList": [
+    {
+      "tableName": "proj_project",
+      "level": 2,
+      "insert": [
+        {"column": "id"},
+        {"column": "creator_id"},
+        {"column": "project_status"},
+        {"column": "start_date"},
+        {"column": "end_date"}
+      ],
+      "update": [
+        {"column": "id"},
+        {"column": "creator_id"},
+        {"column": "project_status"},
+        {"column": "start_date"},
+        {"column": "end_date"}
+      ],
+      "delete": [
+        {"column": "id"}
+      ]
+    },
+    {
+      "tableName": "proj_stage",
+      "level": 3,
+      "insert": [
+        {"column": "id"},
+        {"column": "stage_status"},
+        {"column": "project_id"}
+      ],
+      "update": [
+        {"column": "id"},
+        {"column": "stage_status"},
+        {"column": "project_id"}
+      ],
+      "delete": [
+        {"column": "id"}
+      ]
+    },
+    {
+      "tableName": "proj_task",
+      "level": 3,
+      "insert": [
+        {"column": "id"},
+        {"column": "stage_id"},
+        {"column": "project_id"},
+        {"column": "start_time"},
+        {"column": "end_time"}
+      ],
+      "update": [
+        {"column": "id"},
+        {"column": "stage_id"},
+        {"column": "project_id"},
+        {"column": "start_time"},
+        {"column": "end_time"}
+      ],
+      "delete": [
+        {"column": "id"}
+      ]
+    },
+    {
+      "tableName": "proj_user",
+      "level": 2,
+      "insert": [
+        {"column": "id"},
+        {"column": "username"},
+        {"column": "token"},
+        {"column": "position"}
+      ],
+      "update": [
+        {"column": "id"},
+        {"column": "username"},
+        {"column": "token"},
+        {"column": "position"}
+      ],
+      "delete": [
+        {"column": "id"}
+      ]
+    },
+    {
+      "tableName": "proj_task_user",
+      "level": 3,
+      "insert": [
+        {"column": "task_id"},
+        {"column": "user_id"}
+      ],
+      "update": [
+      ],
+      "delete": [
+        {"column": "task_id"},
+        {"column": "user_id"}
+      ]
+    },
+    {
+      "tableName": "proj_task_type",
+      "level": 3,
+      "insert": [
+        {"column": "task_id"},
+        {"column": "type"}
+      ],
+      "update": [
+      ],
+      "delete": [
+        {"column": "task_id"},
+        {"column": "type"}
+      ]
+    }
+  ]
+}

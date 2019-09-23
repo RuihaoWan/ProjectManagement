@@ -1,0 +1,42 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.rio.proj.mysql.BInlogConfig",
+      "name": "projconf.mysql",
+      "type": "com.rio.proj.mysql.BInlogConfig"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.rio.proj.mysql.BInlogConfig",
+      "name": "projconf.mysql.binlog-name",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.rio.proj.mysql.BInlogConfig",
+      "name": "projconf.mysql.host",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.rio.proj.mysql.BInlogConfig",
+      "name": "projconf.mysql.password",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.rio.proj.mysql.BInlogConfig",
+      "name": "projconf.mysql.port",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.rio.proj.mysql.BInlogConfig",
+      "name": "projconf.mysql.position",
+      "type": "java.lang.Long"
+    },
+    {
+      "sourceType": "com.rio.proj.mysql.BInlogConfig",
+      "name": "projconf.mysql.username",
+      "type": "java.lang.String"
+    }
+  ]
+}

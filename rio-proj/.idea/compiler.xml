@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="proj-eureka" />
+        <module name="proj-board" />
+        <module name="proj-search" />
+        <module name="proj-common" />
+        <module name="proj-producer" />
+        <module name="proj-gateway" />
+        <module name="proj-broadcast" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="proj-broadcast (1)" target="1.8" />
+      <module name="proj-dashboard" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="proj-board" options="-parameters" />
+      <module name="proj-broadcast" options="-parameters" />
+      <module name="proj-broadcast (1)" options="-parameters" />
+      <module name="proj-common" options="-parameters" />
+      <module name="proj-dashboard" options="-parameters" />
+      <module name="proj-eureka" options="-parameters" />
+      <module name="proj-gateway" options="-parameters" />
+      <module name="proj-producer" options="-parameters" />
+      <module name="proj-search" options="-parameters" />
+    </option>
+  </component>
+</project>
